@@ -9,11 +9,20 @@
 import UIKit
 
 class homeViewController: UIViewController {
+    
+    @objc func swipe(gesture: UISwipeGestureRecognizer) -> Void{
+        if gesture.direction == UISwipeGestureRecognizerDirection.up {
+            print("Swipe Up")
+            performSegue(withIdentifier: "toGame", sender: self)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(swipe))
+        swipeUp.direction = .up
+        self.view.addGestureRecognizer(swipeUp)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,13 +9,25 @@
 import UIKit
 
 class endGameViewController: UIViewController {
-
+    @IBOutlet weak var solution0: UILabel!
+    @IBOutlet weak var solution1: UILabel!
+    @IBOutlet weak var solution2: UILabel!
+    @IBOutlet weak var solution3: UILabel!
+    @IBAction func restartGame(_ sender: Any) {
+        
+        performSegue(withIdentifier: "restartGame", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        solution0.text = solution[0]
+        solution1.text = solution[1]
+        solution2.text = solution[2]
+        solution3.text = solution[3]
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

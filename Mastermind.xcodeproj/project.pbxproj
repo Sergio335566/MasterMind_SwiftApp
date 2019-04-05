@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173130CF2257418C00194E79 /* endGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173130CE2257418C00194E79 /* endGameViewController.swift */; };
+		173130D522575E0400194E79 /* winViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173130D422575E0400194E79 /* winViewController.swift */; };
+		173130D72257761F00194E79 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173130D62257761F00194E79 /* homeViewController.swift */; };
 		17819F7F22538F2500DFE684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17819F7E22538F2500DFE684 /* AppDelegate.swift */; };
 		17819F8122538F2500DFE684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17819F8022538F2500DFE684 /* ViewController.swift */; };
 		17819F8422538F2500DFE684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17819F8222538F2500DFE684 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173130CE2257418C00194E79 /* endGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endGameViewController.swift; sourceTree = "<group>"; };
+		173130D422575E0400194E79 /* winViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winViewController.swift; sourceTree = "<group>"; };
+		173130D62257761F00194E79 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		17819F7B22538F2500DFE684 /* Mastermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17819F7E22538F2500DFE684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17819F8022538F2500DFE684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				17819F8522538F2500DFE684 /* Assets.xcassets */,
 				17819F8722538F2500DFE684 /* LaunchScreen.storyboard */,
 				17819F8A22538F2500DFE684 /* Info.plist */,
+				173130CE2257418C00194E79 /* endGameViewController.swift */,
+				173130D422575E0400194E79 /* winViewController.swift */,
+				173130D62257761F00194E79 /* homeViewController.swift */,
 			);
 			path = Mastermind;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17819F8122538F2500DFE684 /* ViewController.swift in Sources */,
+				173130CF2257418C00194E79 /* endGameViewController.swift in Sources */,
 				17819F7F22538F2500DFE684 /* AppDelegate.swift in Sources */,
+				173130D72257761F00194E79 /* homeViewController.swift in Sources */,
+				173130D522575E0400194E79 /* winViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW2MQ43XJF;
 				INFOPLIST_FILE = Mastermind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "serge-bastos.Mastermind";
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW2MQ43XJF;
 				INFOPLIST_FILE = Mastermind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "serge-bastos.Mastermind";
